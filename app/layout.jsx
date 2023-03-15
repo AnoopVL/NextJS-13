@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head/>
-      <body className={montserrat.className}>
+      <body className={`${montserrat.className} mx-38 my-12`}>
       <nav>
           <h1>LOGO</h1>
           <ul className='font-montserrat'>
